@@ -1,6 +1,6 @@
-package GeneralCoreJavaProgram;
+package GeneralCoreJavaProgram.CodingPrograms;
 
-public class Test {
+public class IdentifierRecommendation {
     public static void main(String[] args) {
         int numberOne = 10;
         int numberTwo = 20;
@@ -17,7 +17,6 @@ public class Test {
         sum = numberOne + numberTwo;
         System.out.println(sum);
     }
-
 
     public static void subtractionOfTwoNumber(int numberOne, int numberTwo) {
         int sub;
