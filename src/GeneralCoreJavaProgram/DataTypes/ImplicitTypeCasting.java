@@ -5,10 +5,14 @@ public class ImplicitTypeCasting {
         int value = 10;
         System.out.println(value);
 
-        double values1 = value;
-        System.out.println(values1);
+        double value1 = value;
+        System.out.println(value1);
 
-        long values2 = value;
-        System.out.println(values2);
+        long value2 = value;
+        System.out.println(value2);
+
+        char ch ='A';
+        int value3 = ch;
+        System.out.println(value3);
     }
 }

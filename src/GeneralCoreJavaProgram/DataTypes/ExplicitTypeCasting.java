@@ -8,10 +8,13 @@ public class ExplicitTypeCasting {
         short number1 = (short) 32768;
         System.out.println(number1);
 
-        int number3 =(int) 20.44;
+        int number3 = (int) 20.44;
         System.out.println(number3);
 
-        long number4 =(long) 20.44;
+        long number4 = (long) 20.44;
         System.out.println(number4);
+
+        int number5 = (int) 'A';
+        System.out.println(number5);
     }
 }
