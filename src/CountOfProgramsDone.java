@@ -1,11 +1,13 @@
 import GeneralCoreJavaProgram.CodingPrograms.CountOfProgramsInCodingProgram;
 import GeneralCoreJavaProgram.DataTypes.CountOfProgramsInDataTypes;
+import GeneralCoreJavaProgram.UserInputPrograms.CountOfProgramsInUserInput;
 
 public class CountOfProgramsDone {
     public static void main(String[] args) {
         CountOfProgramsInDataTypes countOfProgramsGeneralCoreJavaProgram = new CountOfProgramsInDataTypes();
         CountOfProgramsInCodingProgram countOfProgramsInCodingProgram = new CountOfProgramsInCodingProgram();
-        int[] files = {countOfProgramsGeneralCoreJavaProgram.returnFileCount() , countOfProgramsInCodingProgram.returnFileCount()};
+        CountOfProgramsInUserInput countOfProgramsInUserInput = new CountOfProgramsInUserInput();
+        int[] files = {countOfProgramsGeneralCoreJavaProgram.returnFileCount() , countOfProgramsInCodingProgram.returnFileCount() , countOfProgramsInUserInput.returnFileCount()};
         sumOfProgramsWeDidTillNow(files);
     }
 
