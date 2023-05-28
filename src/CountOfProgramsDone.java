@@ -18,6 +18,7 @@ public class CountOfProgramsDone {
         for (int file : files) {
             sum = sum + file;
         }
+        System.out.println("Total Number of Packages" + "::" + files.length);
         System.out.println("Total Number of Programs Done till Now" + "::" + sum);
     }
 }
