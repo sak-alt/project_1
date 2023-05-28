@@ -1,5 +1,6 @@
 import GeneralCoreJavaProgram.CodingPrograms.CountOfProgramsInCodingProgram;
 import GeneralCoreJavaProgram.DataTypes.CountOfProgramsInDataTypes;
+import GeneralCoreJavaProgram.ObjectsExample.CountOfProgramsInObjectsExample;
 import GeneralCoreJavaProgram.UserInputPrograms.CountOfProgramsInUserInput;
 
 public class CountOfProgramsDone {
@@ -7,7 +8,8 @@ public class CountOfProgramsDone {
         CountOfProgramsInDataTypes countOfProgramsGeneralCoreJavaProgram = new CountOfProgramsInDataTypes();
         CountOfProgramsInCodingProgram countOfProgramsInCodingProgram = new CountOfProgramsInCodingProgram();
         CountOfProgramsInUserInput countOfProgramsInUserInput = new CountOfProgramsInUserInput();
-        int[] files = {countOfProgramsGeneralCoreJavaProgram.returnFileCount() , countOfProgramsInCodingProgram.returnFileCount() , countOfProgramsInUserInput.returnFileCount()};
+        CountOfProgramsInObjectsExample countOfProgramsInObjectsExample = new CountOfProgramsInObjectsExample();
+        int[] files = {countOfProgramsGeneralCoreJavaProgram.returnFileCount(), countOfProgramsInCodingProgram.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount()};
         sumOfProgramsWeDidTillNow(files);
     }
 
