@@ -9,6 +9,11 @@ public class ObjectCreationExample {
         int sub = subtractionProgram.subtractionProgram(20, 10);
 
         int multiplication = sum * sub;
-        System.out.println(multiplication);
+       // System.out.println(multiplication);
+
+        MultiplicationProgram multiplicationProgram = new MultiplicationProgram();
+        int product = multiplicationProgram.multiplicationprogram(25,40);
+        System.out.println(product);
+
     }
 }
