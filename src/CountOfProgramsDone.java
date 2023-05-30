@@ -4,11 +4,13 @@ import GeneralCoreJavaProgram.EncapsulationExample.CountOfProgramsInEncapsulatio
 import GeneralCoreJavaProgram.ObjectsExample.CountOfProgramsInObjectsExample;
 import GeneralCoreJavaProgram.PolymorphismExample.CountOfProgramsInPolymorphism;
 import GeneralCoreJavaProgram.UserInputPrograms.CountOfProgramsInUserInput;
-import GeneralCoreJavaProgram.abstractionExample.CountOfProgramsInAbstraction;
+import GeneralCoreJavaProgram.abstractionExample.AbstractClassExample.CountOfProgramsInAbstraction;
+import GeneralCoreJavaProgram.abstractionExample.InterfaceExample.CountOfProgramsInInterface;
 
 public class CountOfProgramsDone {
     public static void main(String[] args) {
         CountOfProgramsInAbstraction countOfProgramsInAbstraction = new CountOfProgramsInAbstraction();
+        CountOfProgramsInInterface countOfProgramsInInterface = new CountOfProgramsInInterface();
         CountOfProgramsInEncapsulation countOfProgramsInEncapsulation = new CountOfProgramsInEncapsulation();
         CountOfProgramsInPolymorphism countOfProgramsInPolymorphism = new CountOfProgramsInPolymorphism();
         CountOfProgramsInDataTypes countOfProgramsGeneralCoreJavaProgram = new CountOfProgramsInDataTypes();
@@ -16,7 +18,7 @@ public class CountOfProgramsDone {
         CountOfProgramsInUserInput countOfProgramsInUserInput = new CountOfProgramsInUserInput();
         CountOfProgramsInObjectsExample countOfProgramsInObjectsExample = new CountOfProgramsInObjectsExample();
 
-        int[] files = {countOfProgramsGeneralCoreJavaProgram.returnFileCount(), countOfProgramsInCodingProgram.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(),countOfProgramsInAbstraction.returnFileCount(),countOfProgramsInEncapsulation.returnFileCount(),countOfProgramsInPolymorphism.returnFileCount()};
+        int[] files = {countOfProgramsGeneralCoreJavaProgram.returnFileCount(), countOfProgramsInCodingProgram.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(), countOfProgramsInAbstraction.returnFileCount(), countOfProgramsInEncapsulation.returnFileCount(), countOfProgramsInPolymorphism.returnFileCount(), countOfProgramsInInterface.returnFileCount()};
         sumOfProgramsWeDidTillNow(files);
     }
 
