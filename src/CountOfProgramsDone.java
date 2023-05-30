@@ -1,5 +1,4 @@
 import GeneralCoreJavaProgram.CodingPractice.CountOfProgramsInCodingPractice;
-import GeneralCoreJavaProgram.CodingPractice.CountOfProgramsInCodingProgram;
 import GeneralCoreJavaProgram.DataTypes.CountOfProgramsInDataTypes;
 import GeneralCoreJavaProgram.EncapsulationExample.CountOfProgramsInEncapsulation;
 import GeneralCoreJavaProgram.ObjectsExample.CountOfProgramsInObjectsExample;
@@ -16,11 +15,10 @@ public class CountOfProgramsDone {
         CountOfProgramsInCodingPractice countOfProgramsInCodingPractice = new CountOfProgramsInCodingPractice();
         CountOfProgramsInPolymorphism countOfProgramsInPolymorphism = new CountOfProgramsInPolymorphism();
         CountOfProgramsInDataTypes countOfProgramsGeneralCoreJavaProgram = new CountOfProgramsInDataTypes();
-        CountOfProgramsInCodingProgram countOfProgramsInCodingProgram = new CountOfProgramsInCodingProgram();
         CountOfProgramsInUserInput countOfProgramsInUserInput = new CountOfProgramsInUserInput();
         CountOfProgramsInObjectsExample countOfProgramsInObjectsExample = new CountOfProgramsInObjectsExample();
 
-        int[] files = {countOfProgramsGeneralCoreJavaProgram.returnFileCount(), countOfProgramsInCodingProgram.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(), countOfProgramsInAbstraction.returnFileCount(), countOfProgramsInEncapsulation.returnFileCount(), countOfProgramsInPolymorphism.returnFileCount(), countOfProgramsInInterface.returnFileCount(),countOfProgramsInCodingPractice.returnFileCount()};
+        int[] files = {countOfProgramsGeneralCoreJavaProgram.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(), countOfProgramsInAbstraction.returnFileCount(), countOfProgramsInEncapsulation.returnFileCount(), countOfProgramsInPolymorphism.returnFileCount(), countOfProgramsInInterface.returnFileCount(),countOfProgramsInCodingPractice.returnFileCount()};
         sumOfProgramsWeDidTillNow(files);
     }
 
