@@ -1,5 +1,4 @@
 import GeneralCoreJavaProgram.CodingPractice.CountOfProgramsInCodingPractice;
-import GeneralCoreJavaProgram.CodingPractice.CountOfProgramsInCodingProgram;
 import GeneralCoreJavaProgram.DataTypes.CountOfProgramsInDataTypes;
 import GeneralCoreJavaProgram.EncapsulationExample.CountOfProgramsInEncapsulation;
 import GeneralCoreJavaProgram.ObjectsExample.CountOfProgramsInObjectsExample;
