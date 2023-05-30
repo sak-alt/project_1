@@ -1,4 +1,4 @@
-package GeneralCoreJavaProgram.CodingPrograms;
+package GeneralCoreJavaProgram.CodingPractice;
 
 import GeneralCoreJavaProgram.PathOfProgram;
 

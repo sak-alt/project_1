@@ -1,4 +1,4 @@
-package GeneralCoreJavaProgram.CodingPrograms;
+package GeneralCoreJavaProgram.CodingPractice;
 
 public class PrintHelloWorld {
     public static void main(String[] args) {

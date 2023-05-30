@@ -1,4 +1,4 @@
-package GeneralCoreJavaProgram.CodingPrograms;
+package GeneralCoreJavaProgram.CodingPractice;
 
 public class IdentifierRecommendation {
     public static void main(String[] args) {
