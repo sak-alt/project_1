@@ -18,15 +18,16 @@ public class CountOfProgramsDone {
         CountOfProgramsInPolymorphism countOfProgramsInPolymorphism = new CountOfProgramsInPolymorphism();
         CountOfProgramsInUserInput countOfProgramsInUserInput = new CountOfProgramsInUserInput();
 
-        int[] files = {countOfProgramsInDataTypes.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(), countOfProgramsInAbstraction.returnFileCount(), countOfProgramsInEncapsulation.returnFileCount(), countOfProgramsInPolymorphism.returnFileCount(), countOfProgramsInInterface.returnFileCount(),countOfProgramsInCodingPractice.returnFileCount()};
-        sumOfProgramsWeDidTillNow(files);
+        int[] files = {countOfProgramsInDataTypes.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(), countOfProgramsInAbstraction.returnFileCount(), countOfProgramsInEncapsulation.returnFileCount(), countOfProgramsInPolymorphism.returnFileCount(), countOfProgramsInInterface.returnFileCount(), countOfProgramsInCodingPractice.returnFileCount()};
+        sumOfProgramsWeDidTillNow(files,countOfProgramsInCodingPractice);
     }
 
-    public static void sumOfProgramsWeDidTillNow(int[] files) {
+    public static void sumOfProgramsWeDidTillNow(int[] files, CountOfProgramsInCodingPractice countOfProgramsInCodingPractice) {
         int sum = 0;
         for (int file : files) {
             sum = sum + file;
         }
+        System.out.println("Programs in Coding Practice" + " " + countOfProgramsInCodingPractice.returnFileCount());
         System.out.println("Total Number of Packages" + "::" + files.length);
         System.out.println("Total Number of Programs Done till Now" + "::" + sum);
     }
