@@ -6,5 +6,6 @@ public class EncapsulationMain {
         encapsulationExample.setBankBalance(100);
         encapsulationExample.deposit(200);
         encapsulationExample.withdraw(300);
+        System.out.println(encapsulationExample.getBankBalance());
     }
 }
