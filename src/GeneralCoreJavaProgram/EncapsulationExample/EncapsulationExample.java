@@ -2,7 +2,6 @@ package GeneralCoreJavaProgram.EncapsulationExample;
 
 public class EncapsulationExample {
     private int bankBalance;
-    private int bankAccount;
 
     public int getBankBalance() {
         return bankBalance;
@@ -12,11 +11,21 @@ public class EncapsulationExample {
         this.bankBalance = bankBalance;
     }
 
-    public int getBankAccount() {
-        return bankAccount;
+    public void deposit(double amount) {
+        if (amount > 0) {
+            bankBalance += amount;
+            System.out.println("Deposit successful. New balance: " + bankBalance);
+        } else {
+            System.out.println("Invalid amount for deposit.");
+        }
     }
 
-    public void setBankAccount(int bankAccount) {
-        this.bankAccount = bankAccount;
+    public void withdraw(double amount) {
+        if (amount > 0 && bankBalance >= amount) {
+            bankBalance -= amount;
+            System.out.println("Withdrawal successful. New balance: " + bankBalance);
+        } else {
+            System.out.println("Insufficient balance or invalid amount for withdrawal.");
+        }
     }
 }
