@@ -8,6 +8,8 @@ import GeneralCoreJavaProgram.UserInputPrograms.CountOfProgramsInUserInput;
 import GeneralCoreJavaProgram.abstractionExample.AbstractClassExample.CountOfProgramsInAbstraction;
 import GeneralCoreJavaProgram.abstractionExample.InterfaceExample.CountOfProgramsInInterface;
 
+import java.util.Arrays;
+
 public class CountOfProgramsDone {
     public static void main(String[] args) {
         CountOfProgramsInAbstraction countOfProgramsInAbstraction = new CountOfProgramsInAbstraction();
@@ -25,10 +27,7 @@ public class CountOfProgramsDone {
     }
 
     public static void sumOfProgramsWeDidTillNow(int[] files, CountOfProgramsInCodingPractice countOfProgramsInCodingPractice) {
-        int sum = 0;
-        for (int file : files) {
-            sum = sum + file;
-        }
+        int sum = Arrays.stream(files).sum();
         System.out.println("Programs in Coding Practice" + " " + countOfProgramsInCodingPractice.returnFileCount());
         System.out.println("Total Number of Packages" + "::" + files.length);
         System.out.println("Total Number of Programs Done till Now" + "::" + sum);
