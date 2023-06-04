@@ -30,6 +30,6 @@ public class CountOfProgramsDone {
         int sum = Arrays.stream(files).sum();
         System.out.println("Programs in Coding Practice" + " " + countOfProgramsInCodingPractice.returnFileCount());
         System.out.println("Total Number of Packages" + "::" + files.length);
-        System.out.println("Total Number of Programs Done till Now" + "::" + sum);
+        System.out.println("Total Number of Programs Done till Now" + "::" + (sum - files.length));
     }
 }
