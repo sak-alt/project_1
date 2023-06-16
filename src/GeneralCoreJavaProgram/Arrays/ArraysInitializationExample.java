@@ -11,6 +11,5 @@ public class ArraysInitializationExample {
         numbers[3] = 40;
 
         System.out.println(Arrays.toString(numbers));
-
     }
 }
