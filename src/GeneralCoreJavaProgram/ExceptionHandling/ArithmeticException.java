@@ -12,7 +12,7 @@ public class ArithmeticException {
             int result = number / numbers;
             System.out.println(result);
         } catch (Exception exception) {
-            System.out.println("Sakhi");
+            System.out.println("Exception has been occurred in try block and has been ByPassed");
         }
     }
 }

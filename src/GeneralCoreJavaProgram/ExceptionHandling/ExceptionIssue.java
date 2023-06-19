@@ -9,7 +9,7 @@ public class ExceptionIssue {
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
             exception.printStackTrace();
-            System.out.println("Cab");
+            System.out.println("Exception ByPassed");
         }
     }
 }
