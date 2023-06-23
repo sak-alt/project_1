@@ -9,6 +9,7 @@ import GeneralCoreJavaProgram.PolymorphismExample.CountOfProgramsInPolymorphism;
 import GeneralCoreJavaProgram.UserInputPrograms.CountOfProgramsInUserInput;
 import GeneralCoreJavaProgram.abstractionExample.AbstractClassExample.CountOfProgramsInAbstraction;
 import GeneralCoreJavaProgram.abstractionExample.InterfaceExample.CountOfProgramsInInterface;
+import GeneralCoreJavaProgram.enums.CountOfProgramsInEnum;
 import GeneralCoreJavaProgram.serialization.CountOfProgramsSerialization;
 
 import java.util.Arrays;
@@ -23,12 +24,13 @@ public class CountOfProgramsDone {
         CountOfProgramsInInheritance countOfProgramsInInheritance = new CountOfProgramsInInheritance();
         CountOfProgramsInExceptionPackage countOfProgramsInExceptionPackage = new CountOfProgramsInExceptionPackage();
         CountOfProgramsInEncapsulation countOfProgramsInEncapsulation = new CountOfProgramsInEncapsulation();
+        CountOfProgramsInEnum countOfProgramsInEnum = new CountOfProgramsInEnum();
         CountOfProgramsInObjectsExample countOfProgramsInObjectsExample = new CountOfProgramsInObjectsExample();
         CountOfProgramsSerialization countOfProgramsSerialization = new CountOfProgramsSerialization();
         CountOfProgramsInPolymorphism countOfProgramsInPolymorphism = new CountOfProgramsInPolymorphism();
         CountOfProgramsInUserInput countOfProgramsInUserInput = new CountOfProgramsInUserInput();
 
-        int[] files = {countOfProgramsInDataTypes.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(), countOfProgramsInAbstraction.returnFileCount(), countOfProgramsInEncapsulation.returnFileCount(), countOfProgramsInPolymorphism.returnFileCount(), countOfProgramsInInterface.returnFileCount(), countOfProgramsInCodingPractice.returnFileCount(), countOfProgramsInInheritance.returnFileCount(), countOfProgramsInArrays.returnFileCount(), countOfProgramsInExceptionPackage.returnFileCount(), countOfProgramsSerialization.returnFileCount()};
+        int[] files = {countOfProgramsInDataTypes.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(), countOfProgramsInAbstraction.returnFileCount(), countOfProgramsInEncapsulation.returnFileCount(), countOfProgramsInPolymorphism.returnFileCount(), countOfProgramsInInterface.returnFileCount(), countOfProgramsInCodingPractice.returnFileCount(), countOfProgramsInInheritance.returnFileCount(), countOfProgramsInArrays.returnFileCount(), countOfProgramsInExceptionPackage.returnFileCount(), countOfProgramsSerialization.returnFileCount(), countOfProgramsInEnum.returnFileCount()};
         sumOfProgramsWeDidTillNow(files, countOfProgramsInCodingPractice);
     }
 
