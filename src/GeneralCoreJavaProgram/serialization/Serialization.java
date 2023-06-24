@@ -12,13 +12,5 @@ public class Serialization {
         FileOutputStream fileOutputStream = new FileOutputStream("employee.ser");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(employee);
-
-
-        FileInputStream fileInputStream = new FileInputStream("employee.ser");
-        ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-        employee = (Employee) objectInputStream.readObject();
-        System.out.println(employee.id);
-        System.out.println(employee.name);
-        System.out.println(employee.phoneNumber);
     }
 }
