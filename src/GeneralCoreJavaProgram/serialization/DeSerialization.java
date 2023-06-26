@@ -6,7 +6,7 @@ import java.io.ObjectInputStream;
 
 public class DeSerialization {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        Employee employee;
+        Employee employee = null;
         FileInputStream fileInputStream = new FileInputStream("employee.ser");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
         employee = (Employee) objectInputStream.readObject();
