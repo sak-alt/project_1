@@ -8,7 +8,7 @@ public class PrintTheSumUsingWhileLoop {
         int i = 0;
         while (i <= lastNumber) {
             sum = sum + i;
-            i++;
+             i++;
         }
         System.out.println("The Sum is ::" + " " + sum);
     }
