@@ -11,12 +11,12 @@ public class WriteDataToFile {
         File file1 = new File("C:\\Users\\91830\\Downloads\\xyz");
         file1.mkdir();
         if (file1.isDirectory()) {
-            File file = new File("C:\\Users\\91830\\Downloads\\xyz\\codetalksdna.txt");
+            File file = new File(file1.getPath()+"\\codetalksdna.txt");
             file.createNewFile();
         } else {
             System.out.println("Folder Doesn't exist , Please Create One!");
         }
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("C:\\Users\\91830\\Downloads\\xyz\\codetalksdna.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file1.getPath()+"\\codetalksdna.txt"));
         for (String s : array) {
             bufferedWriter.write("\nWelcome to Java by" + " " + s + ".");
         }

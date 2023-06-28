@@ -8,7 +8,7 @@ public class CheckForFolder {
         File file1 = new File("C:\\Users\\91830\\Downloads\\xyz");
         file1.mkdir();
         if (file1.isDirectory()) {
-            File file = new File("C:\\Users\\91830\\Downloads\\xyz\\codetalksdna.java");
+            File file = new File(file1.getPath() + "\\codetalksdna.java");
             file.createNewFile();
         } else {
             System.out.println("Folder Doesn't exist , Please Create One!");
