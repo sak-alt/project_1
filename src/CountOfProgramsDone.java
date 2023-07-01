@@ -1,6 +1,6 @@
 import GeneralCoreJavaProgram.Arrays.CountOfProgramsInArrays;
 import GeneralCoreJavaProgram.CodingPractice.CountOfProgramsInCodingPractice;
-import GeneralCoreJavaProgram.Collections.CountOfProgramsInCollections;
+import GeneralCoreJavaProgram.Collections.CountOfProgramInCollections;
 import GeneralCoreJavaProgram.DataTypes.CountOfProgramsInDataTypes;
 import GeneralCoreJavaProgram.EncapsulationExample.CountOfProgramsInEncapsulation;
 import GeneralCoreJavaProgram.ExceptionHandling.CountOfProgramsInExceptionPackage;
@@ -26,7 +26,7 @@ public class CountOfProgramsDone {
         CountOfProgramsInArrays countOfProgramsInArrays = new CountOfProgramsInArrays();
         CountOfProgramsInInterface countOfProgramsInInterface = new CountOfProgramsInInterface();
         CountOfProgramsInCodingPractice countOfProgramsInCodingPractice = new CountOfProgramsInCodingPractice();
-        CountOfProgramsInCollections countOfProgramsInCollections = new CountOfProgramsInCollections();
+        CountOfProgramInCollections countOfProgramsInCollections = new CountOfProgramInCollections();
         CountOfProgramsInDataTypes countOfProgramsInDataTypes = new CountOfProgramsInDataTypes();
         CountOfProgramsInInheritance countOfProgramsInInheritance = new CountOfProgramsInInheritance();
         CountOfProgramInJava8Features countOfProgramInJava8Features = new CountOfProgramInJava8Features();
@@ -42,6 +42,7 @@ public class CountOfProgramsDone {
         CountOfProgramsInStringClass countOfProgramsInStringClass = new CountOfProgramsInStringClass();
         CountOfProgramsInUserInput countOfProgramsInUserInput = new CountOfProgramsInUserInput();
 
+        System.out.println(countOfProgramsInCollections.returnFileCount());
         int[] files = {countOfProgramsInDataTypes.returnFileCount(), countOfProgramsInUserInput.returnFileCount(), countOfProgramsInObjectsExample.returnFileCount(), countOfProgramsInAbstraction.returnFileCount(), countOfProgramsInEncapsulation.returnFileCount(), countOfProgramsInPolymorphism.returnFileCount(), countOfProgramsInInterface.returnFileCount(), countOfProgramsInCodingPractice.returnFileCount(), countOfProgramsInInheritance.returnFileCount(), countOfProgramsInArrays.returnFileCount(), countOfProgramsInExceptionPackage.returnFileCount(), countOfProgramsSerialization.returnFileCount(), countOfProgramsInEnum.returnFileCount(), countOfProgramsInLoops.returnFileCount(), countOfProgramsInFileIO.returnFileCount(), countOfProgramInJava8Features.returnFileCount(), countOfProgramsInMultithreading.returnFileCount(), countOfProgramsInCollections.returnFileCount(), countOfProgramsInStringClass.returnFileCount()};
         sumOfProgramsWeDidTillNow(files, countOfProgramsInCodingPractice);
     }
