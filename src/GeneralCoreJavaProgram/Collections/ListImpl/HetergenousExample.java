@@ -1,7 +1,6 @@
 package GeneralCoreJavaProgram.Collections.ListImpl;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class HetergenousExample {
     public static void main(String[] args) {
