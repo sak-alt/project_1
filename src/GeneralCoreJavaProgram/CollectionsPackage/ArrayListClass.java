@@ -2,7 +2,7 @@ package GeneralCoreJavaProgram.CollectionsPackage;
 
 import java.util.*;
 
-public class Collection {
+public class ArrayListClass {
     public static void main(String[] args) {
         List<String> stringList = new ArrayList<>();
         stringList.add("Nitesh");
