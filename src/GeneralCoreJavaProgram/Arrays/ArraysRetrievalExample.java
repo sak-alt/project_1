@@ -1,7 +1,5 @@
 package GeneralCoreJavaProgram.Arrays;
 
-import java.util.Arrays;
-
 public class ArraysRetrievalExample {
     public static void main(String[] args) {
         int[] numbers = new int[4];
